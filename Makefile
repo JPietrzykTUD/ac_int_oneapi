@@ -1,6 +1,6 @@
 ALL_CXXFLAGS=-Wall -std=c++20 $(CXXFLAGS)
 
-BOARD= #SET_ME
+BOARD=/opt/intel/oneapi/intel_s10sx_pac:pac_s10_usm
 
 # Directories
 INC_DIRS := ../common/inc
